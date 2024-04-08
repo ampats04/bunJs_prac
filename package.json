@@ -2,8 +2,7 @@
   "name": "bun-js-test",
   "module": "index.ts",
   "type": "module",
-  
-  "scripts":{
+  "scripts": {
     "dev": "bun --hot index.ts"
   },
   "devDependencies": {
@@ -11,5 +10,8 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "elysia": "^1.0.13"
   }
 }
